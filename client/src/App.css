@@ -80,6 +80,11 @@ body, html {
   margin-top: 30px;
 }
 
+.container {
+  display: flex;
+  flex-direction: row
+}
+
 .video-box {
   margin-top: 45px;
 }
@@ -94,6 +99,17 @@ body, html {
   margin-top: 45px;
 }
 
+.next-box {
+  color: #000;
+  font-family: 'Gotham Book';
+  margin-top: 45px;
+  margin-left: 35%;
+  margin-right: 35%;
+  text-align: center;
+  font-weight:bold;
+  justify-content: space-between;
+}
+
 .article-card {
   margin-top: 45px;
   text-align: left;
@@ -105,4 +121,21 @@ body, html {
   color: #000;
   font-family: 'Gotham Book';
   margin-top: 45px;
+  margin-left: 35%;
+  margin-right: 35%;
+}
+
+.footer {
+  margin-top: 45px;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  text-align: left;
+  font-size: small;
+  font-weight: bold;
+  align-items: center;
+  align-content: flex-end
+}
+
+.footer p {
+  font-weight: 400;
 }

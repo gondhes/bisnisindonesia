@@ -6,6 +6,9 @@ import widget1 from '../images/widget-1.jpg'
 import widget2 from '../images/widget-2.jpg'
 import banner from '../images/banner.jpg'
 import img1 from '../images/img-1.png'
+import logo1 from '../images/logo-bank-btn.png'
+import logo2 from '../images/logo-waskita.png'
+import logo3 from '../images/logo-bisnis-com-color.png'
 
 // import ArticleCard from "../components/ArticleCard"
 
@@ -69,6 +72,16 @@ export default function Home() {
           </Row>
         </div>
 
+        <div className="next-box">
+          <Row>
+            <Col></Col>
+            <Col xs={8}>
+                Berita terkini
+            </Col>
+            <Col></Col>
+          </Row>
+        </div>
+
         <div className="article-card">
           <Row>
             <Col>
@@ -115,7 +128,40 @@ export default function Home() {
         <div className="sponsor-box">
           <Row>
             <Col></Col>
-            <Col xs={7}>didukung oleh:</Col>
+            <Col xs={7}>Didukung oleh</Col>
+            <Col></Col>
+          </Row>
+          <br/>
+          <Row>
+            <Col>
+              <Image src={logo1} />
+            </Col>
+            <Col>
+              <Image src={logo2} />
+            </Col>
+          </Row>
+        </div>
+
+        <div className="footer">
+          <Row>
+            <Col></Col>
+            <Col xs={10}>
+              <hr/>
+              <Row>
+                <Col><Image src={logo3} style={{ width: '12rem' }}/></Col>
+                <Col></Col>
+                <Col>About</Col>
+                <Col>Privacy Policy </Col>
+                <Col>Code of Conduct </Col>
+                <Col>Advertise with us</Col>
+                <Col>Contact Us </Col>
+                <Col>Career </Col>
+              </Row>
+              <br/>
+              <p className="col-sm">
+                Copyright &copy;{new Date().getFullYear()} - Bisnis Indonesia
+              </p>
+              </Col>
             <Col></Col>
           </Row>
         </div>
