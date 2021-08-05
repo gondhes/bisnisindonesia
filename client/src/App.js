@@ -1,6 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import Home from './pages/Home'
+import About from './pages/About'
 import {
   BrowserRouter as Router,
   Switch,
@@ -12,6 +13,9 @@ function App() {
     <Router>
       <div className="App">
     <Switch>
+      <Route path="/about">
+        <About></About>
+      </Route>
       <Route path="/">
         <Home></Home>
       </Route>

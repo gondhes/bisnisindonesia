@@ -1,22 +1,25 @@
 {
     "articles":[
         {
+            "id": 1,
             "date": "12 Juli 2020",
             "headline": "Hari Kemerdekaan 17 Agustus: Upacara Digelar Minimalis, Ini Simulasinya",
             "overview": "Istana Kepresidenan menggelar latihan penaikan bendera merah putih untuk HUT ke-75 RI dengan petugas minimalis.",
-            "img": "https://www.themoviedb.org/t/p/w1280/h1B7tW0t399VDjAcWJh8m87469b.jpg"
+            "img": "/img-1.png"
         },
         {
+            "id": 2,
             "date": "12 Juli 2020",
             "headline": "Merah Putih di Puncak Dunia, 2 Srikandi Indonesia Tuntaskan Ekspedisi 7 ...",
             "overview": "Tim The Women of Indonesias Seven Summits Expedition Mahitala Unpar (WISSEMU) berhasil mengibarkan bendera Merah Putih di puncak...",
-            "img": "https://www.themoviedb.org/t/p/w1280/h1B7tW0t399VDjAcWJh8m87469b.jpg"
+            "img": "/img-2.png"
         },
         {
+            "id": 3,
             "date": "12 Juli 2020",
             "headline": "Hari Kemerdekaan 17 Agustus: Upacara Digelar Minimalis, Ini Simulasinya",
             "overview": "Catat tanggalnya, 17 Agustus 2020 Pukul 10.17--10.20 WIB, waktunya menghentikan aktivitas sejenak.",
-            "img": "https://www.themoviedb.org/t/p/w1280/h1B7tW0t399VDjAcWJh8m87469b.jpg"
+            "img": "/img-3.png"
         }
     ]
 }
